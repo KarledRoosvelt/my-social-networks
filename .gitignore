@@ -1,0 +1,30 @@
+﻿node_modules/
+.env
+.env.*
+!.env.example
+
+certificates/
+*.pem
+*.key
+
+test-*.json
+test-request.json
+test-purchase.json
+
+*.backup.mjs
+*.backup_*.mjs
+*.avant_*.mjs
+
+check-tickets.mjs
+create-ticket-index.mjs
+verify-stock.mjs
+
+logs/
+*.log
+.DS_Store
+
+# Ancien projet API - ne pas publier
+/api/
+
+# Sauvegardes locales
+*.bak
